@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+  db:
+    image: arm64v8/mysql:latest
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - 3307:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: lanjutkoding
+      MYSQL_USER: lanjutkoding
+      MYSQL_PASSWORD: lanjutkoding
+
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - '80:80'
+    # extra_hosts:
+    #   - lanjutkoding.local:192.168.88.73
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306 # change to existing db if necessary
+      WORDPRESS_DB_USER: lanjutkoding
+      WORDPRESS_DB_PASSWORD: lanjutkoding
+      WORDPRESS_DB_NAME: lanjutkoding
+    volumes:
+      - wordpress_files:/var/www/html
+      - ./.htaccess:/var/www/html/.htaccess
+      - ./wp-content/:/var/www/html/wp-content
+volumes:
+  db_data:
+    external:
+      name: lanjutkoding_db_data
+  wordpress_files:
+    external:
+      name: lanjutkoding_wordpress_files
