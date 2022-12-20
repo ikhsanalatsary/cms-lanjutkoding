@@ -34,8 +34,8 @@ services:
       - ./wp-content/:/var/www/html/wp-content
 volumes:
   db_data:
-    external:
-      name: lanjutkoding_db_data
+    external: true
+    name: lanjutkoding_db_data
   wordpress_files:
-    external:
-      name: lanjutkoding_wordpress_files
+    external: true
+    name: lanjutkoding_wordpress_files
