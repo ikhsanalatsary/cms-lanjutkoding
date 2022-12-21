@@ -19,7 +19,7 @@ services:
       - db
     image: wordpress:latest
     ports:
-      - '80:80'
+      - '8081:80'
     # extra_hosts:
     #   - lanjutkoding.local:192.168.88.73
     restart: always
