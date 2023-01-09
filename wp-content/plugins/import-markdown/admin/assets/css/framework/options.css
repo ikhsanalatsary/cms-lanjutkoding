@@ -1,0 +1,183 @@
+/* utility */
+
+.daext-clearfix:after {
+    visibility: hidden !important;
+    display: block !important;
+    font-size: 0 !important;
+    content: " " !important;
+    clear: both !important;
+    height: 0 !important;
+}
+
+.daext-clearfix {
+    display: inline-block !important;
+}
+
+* html .daext-clearfix {
+    height: 1% !important;
+}
+
+.daext-clearfix {
+    display: block !important;
+}
+
+.daext-display-none {
+    display: none;
+}
+
+/* general */
+
+#wpcontent {
+    min-height: 1200px;
+}
+
+#daext-options-wrapper {
+    margin-top: 23px;
+}
+
+#daext-options-wrapper * {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+#daext-options-wrapper tbody th {
+    color: #333;
+    font-weight: normal;
+    text-align: right;
+    height: 24px;
+    line-height: 24px;
+}
+
+#daext-options-wrapper tbody th,
+#daext-options-wrapper tbody td {
+    padding: 8px;
+}
+
+#daext-options-wrapper tbody tr:not(:last-child) > th, #daext-options-wrapper tbody tr:not(:last-child) > td {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#daext-options-wrapper input[type="text"] {
+    height: 24px;
+    line-height: 16px;
+    box-shadow: none;
+    padding: 3px 5px;
+    margin: 0 !important;
+    width: 217px;
+    color: #333 !important;
+    border-color: #dddddd;
+    border-radius: 0;
+    min-height: auto;
+}
+
+#daext-options-wrapper input[type="text"]:focus{
+    border-color: #5b9dd9;
+}
+
+#daext-options-wrapper select {
+    height: 24px;
+    line-height: 16px;
+    box-shadow: none;
+    padding: 3px 5px;
+    margin: 0 !important;
+}
+
+#daext-options-wrapper textarea {
+    width: 100%;
+    font-size: 12px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    min-height: 60px;
+    margin: 0 !important;
+    overflow: auto;
+    padding: 3px 5px;
+    line-height: 1.4;
+    color: #333;
+    display: block;
+}
+
+.submit > input[type="submit"] {
+    box-shadow: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+    font-size: 12px !important;
+}
+
+.nav-tab {
+    background: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    padding: 3px 10px;
+    line-height: 28px;
+    font-weight: bold;
+    height: 28px;
+    color: #333;
+}
+
+.nav-tab:hover {
+    background: #f7f7f7;
+}
+
+.nav-tab-active {
+    background: #fff;
+    border-bottom-color: #fff;
+}
+
+.nav-tab-active:hover {
+    background: #fff !important;
+    border-bottom-color: #fff;
+}
+
+#daext-options-wrapper .form-table {
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    margin: 0;
+    background: #fdfdfd;
+    border-top: 1px solid #dfdfdf;
+}
+
+.options-table-container {
+    width: 800px;
+}
+
+.daext-options-action {
+    line-height: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 8px 10px;
+    text-align: left;
+    background: #f7f7f7;
+    text-shadow: #fff 0 1px 0;
+    border: 1px solid #dfdfdf;
+    border-radius: 0 0 3px 3px;
+}
+
+.daext-options-action > input.button {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    font-weight: normal;
+    color: #555 !important;
+    border-color: #cccccc !important;
+    background: #f7f7f7;
+}
+
+.daext-options-action > input.button:hover{
+    background: #fafafa;
+    border-color: #979797 !important;
+}
+
+#daext-options-wrapper .wp-color-result {
+    margin: 0;
+    box-shadow: none;
+}
+
+#daext-options-wrapper .wp-picker-clear {
+    box-shadow: none;
+}
+
+#daext-options-wrapper .nav-tab-wrapper {
+    border-bottom: 0;
+    padding-top: 0;
+}

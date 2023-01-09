@@ -1,0 +1,47 @@
+.chosen-container,
+.chosen-container-single,
+.chosen-container-active,
+.chosen-default,
+.chosen-drop,
+.chosen-single,
+.chosen-search,
+.chosen-results {
+    font-size: 12px !important;
+    background: #fff !important;
+    border-color: #ddd !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: #333 !important;
+}
+
+.chosen-container .chosen-results li.highlighted {
+    background: #0075a5 !important;
+    color: #fff !important;
+}
+
+.chosen-container-single .chosen-default {
+    border-color: #ddd !important;
+    height: 24px;
+    line-height: 22px !important;
+}
+
+.chosen-container-single .chosen-single {
+    height: 24px !important;
+}
+
+.chosen-container-single .chosen-single span {
+    line-height: 22px;
+}
+
+.chosen-container .chosen-results {
+    max-height: 200px !important;
+}
+
+.chosen-container {
+    min-width: 217px;
+    max-width: 217px;
+}
+
+#daext-options-wrapper .chosen-search input[type="text"] {
+    width: 207px;
+}

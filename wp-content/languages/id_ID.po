@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-15 22:53:06+0000\n"
+"PO-Revision-Date: 2022-12-29 15:17:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4518,7 +4518,7 @@ msgstr "Tema ini tidak berfungsi dengan versi WordPress Anda."
 #: wp-admin/includes/class-wp-plugins-list-table.php:1310
 #: wp-admin/includes/plugin.php:1136 wp-admin/includes/theme.php:901
 #: wp-admin/includes/theme.php:932 wp-admin/includes/theme.php:978
-#: wp-admin/includes/theme.php:1001 wp-admin/includes/update-core.php:1059
+#: wp-admin/includes/theme.php:1001 wp-admin/includes/update-core.php:1057
 #: wp-admin/includes/update.php:757 wp-admin/includes/update.php:784
 #: wp-admin/install.php:245 wp-admin/theme-install.php:336
 #: wp-admin/theme-install.php:359 wp-admin/theme-install.php:526
@@ -16746,7 +16746,7 @@ msgstr "<strong>Eror</strong>: Mohon masukkan nama pengguna atau alamat e-mail."
 
 #: wp-login.php:152
 msgid "Powered by WordPress"
-msgstr "Diberdayakan dengan WordPress"
+msgstr "Dipersembahkan oleh WordPress"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number.

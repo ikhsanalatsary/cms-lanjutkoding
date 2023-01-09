@@ -1,0 +1,1806 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: daimma\n"
+"POT-Creation-Date: 2018-06-29 14:51+0100\n"
+"PO-Revision-Date: 2018-06-29 14:51+0100\n"
+"Last-Translator: Danilo Andreini <andreini.danilo@gmail.com>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-daimma-admin.php:318
+msgid "IM"
+msgstr "IM"
+
+#: ../admin/class-daimma-admin.php:319
+msgid "Markdown"
+msgstr "Markdown"
+
+#: ../admin/class-daimma-admin.php:328
+msgid "IM - Import"
+msgstr "IM- Importa"
+
+#: ../admin/class-daimma-admin.php:329 ../admin/view/import.php:15
+msgid "Import"
+msgstr "Importa"
+
+#: ../admin/class-daimma-admin.php:337
+msgid "IM - Options"
+msgstr "IM - Opzioni"
+
+#: ../admin/class-daimma-admin.php:338 ../admin/view/options.php:11
+msgid "Options"
+msgstr "Opzioni"
+
+#: ../admin/class-daimma-admin.php:378
+msgid "Post Type"
+msgstr "Post Type"
+
+#: ../admin/class-daimma-admin.php:392
+msgid "Required Capability"
+msgstr "Capability Richiesta"
+
+#: ../admin/class-daimma-admin.php:406
+msgid "Parser"
+msgstr "Decodificatore"
+
+#: ../admin/class-daimma-admin.php:420
+msgid "Cebe Markdown HTML5"
+msgstr "Cebe Markdown HTML5"
+
+#: ../admin/class-daimma-admin.php:434
+msgid "Cebe Markdown List Start"
+msgstr "Cebe Markdown List Start"
+
+#: ../admin/class-daimma-admin.php:448
+msgid "Cebe Markdown New Lines"
+msgstr "Cebe Markdown New Lines"
+
+#: ../admin/class-daimma-admin.php:489
+msgid ""
+"The post type to which the posts generated from the imported Markdown files "
+"should be assigned."
+msgstr ""
+"Il post type verso il quale devono essere assegnati i post generati dai file "
+"Markdown importati."
+
+#: ../admin/class-daimma-admin.php:508
+msgid "Please enter a valid capability in the \"Required Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nella opzione \"Capability "
+"Richiesta\"."
+
+#: ../admin/class-daimma-admin.php:522
+msgid "The capability required to get access on the \"Import\" menu."
+msgstr "La capability richiesta per avere accesso al menu \"Importa\"."
+
+#: ../admin/class-daimma-admin.php:544
+msgid ""
+"This option determines which parser should be used to perform the conversion."
+msgstr ""
+"Questa opzione determina quale decodificatore deve essere utilizzato per "
+"effettuare la conversione."
+
+#: ../admin/class-daimma-admin.php:563 ../admin/class-daimma-admin.php:586
+#: ../admin/class-daimma-admin.php:609
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../admin/class-daimma-admin.php:565 ../admin/class-daimma-admin.php:588
+#: ../admin/class-daimma-admin.php:611
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: ../admin/class-daimma-admin.php:567
+msgid ""
+"To enable HTML5 output instead of HTML4. This feature is actually applied "
+"only if one of the three \"Cebe Markdown\" parsers is used."
+msgstr ""
+"Per abilitare HTML5 invece che HTML4. Questa caratteristica è applicata "
+"esclusivamente se uno dei tre decodificatori \"Cebe Markdown\" è utilizzato."
+
+#: ../admin/class-daimma-admin.php:590
+msgid ""
+"To keep the number in the ordered lists as specified in the Markdown. The "
+"default behavior is to always start from 1 and increment by one regardless "
+"of the number specified in the Markdown. This feature is actually applied "
+"only if one of the three \"Cebe Markdown\" parsers is used."
+msgstr ""
+"Per mantenere la numerazione delle liste ordinate come specificato nel "
+"codice Markdown. Il comportamento predefinito è di partire sempre da 1 e di "
+"incrementare di 1 indipendentemente dal numero specificato nel markdown. "
+"Questa caratteristica è applicata esclusivamente se uno dei tre "
+"decodificatori \"Cebe Markdown\" è utilizzato."
+
+#: ../admin/class-daimma-admin.php:613
+msgid ""
+"To convert all the newlines to <br/> tags. By default only the newlines with "
+"two preceding spaces are converted to <br/> tags. This feature is actually "
+"applied only if the \"Cebe Markdown GitHub\" parser is used."
+msgstr ""
+"Per convertire tutti gli a capo con il tag <br/>. In maniera predefinita "
+"solo gli a capo preceduti da due spazi sono convertiti in tag <br/>. Questa "
+"caratteristica è applicata esclusivamente se il decodificatore \"Cebe "
+"Markdown GitHub\" è utilizzato."
+
+#: ../admin/class-daimma-admin.php:742
+msgid "The new post has been successfully created. You can edit it "
+msgstr "Il nuovo post è stato creato con successo. Puoi modificarlo "
+
+#: ../admin/class-daimma-admin.php:743
+msgid "here"
+msgstr "qui"
+
+#: ../admin/class-daimma-admin.php:744 ../admin/class-daimma-admin.php:748
+#: ../admin/class-daimma-admin.php:755
+msgid "Dismiss this notice."
+msgstr "Rimuovi questa notifica."
+
+#: ../admin/class-daimma-admin.php:747
+msgid "Unable to create the new post. An error occured."
+msgstr "Non riesco a creare il nuovo post. Si è verificato un errore."
+
+#: ../admin/class-daimma-admin.php:754
+msgid "Please select a Markdown file."
+msgstr "Per favore scegli un file Markdown."
+
+#: ../admin/class-daimma-admin.php:788
+msgid "Do you need help?"
+msgstr "Hai bisogno d'aiuto?"
+
+#: ../admin/class-daimma-admin.php:793
+msgid "Video Tutorial"
+msgstr "Video Tutorial"
+
+#: ../admin/class-daimma-admin.php:794
+msgid "Plugin Homepage"
+msgstr "Homepage del Plugin"
+
+#: ../admin/class-daimma-admin.php:796
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../admin/class-daimma-admin.php:799
+msgid "Support Forums"
+msgstr "Forum di Supporto"
+
+#: ../admin/class-daimma-admin.php:806
+msgid "Recommended Plugins"
+msgstr "Plugin Raccomandati"
+
+#: ../admin/class-daimma-admin.php:812
+msgid "Create sortable and responsive tables inside your posts with the"
+msgstr "Crea tabelle ordinabili ed adattive nei tuoi articoli con il plugin"
+
+#: ../admin/class-daimma-admin.php:813
+msgid "plugin for WordPress"
+msgstr "per WordPress"
+
+#: ../admin/class-daimma-admin.php:821
+msgid ""
+"Improve your internal links structure and increase your website visits with"
+msgstr ""
+"Migliora la tua struttura dei link interni ed incrementa le visite del tuo "
+"sito con"
+
+#: ../admin/view/import.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
+
+#: ../admin/view/import.php:35
+msgid "The Parsedown parser requires at least PHP 5.3"
+msgstr "Il decodificatore Parsedown richiede minimo PHP 5.3"
+
+#: ../admin/view/import.php:44
+msgid "The Cebe Markdown parser requires at least PHP 5.4"
+msgstr "Il decodificatore Cebe Markdown richiede minimo PHP 5.4"
+
+#: ../admin/view/import.php:51
+msgid ""
+"Choose a Markdown file (.md .markdown .mdown .mkdn .mkd .mdwn .mdtxt ."
+"mdtext .text .txt) to upload, then click Upload file and import."
+msgstr ""
+"Scegli un file Markdown (.md .markdown .mdown .mkdn .mkd .mdwn .mdtxt ."
+"mdtext .text .txt) da caricare, poi clicca Carica file e importa."
+
+#: ../admin/view/import.php:56
+msgid "Choose a file from your computer:"
+msgstr "Scegli un file dal tuo computer:"
+
+#: ../admin/view/import.php:60
+msgid "Upload file and import"
+msgstr "Carica file and importa"
+
+#: ../admin/view/options.php:4
+msgid "You do not have sufficient capabilities to access this page."
+msgstr "Non hai le capability sufficienti per accedere a questa pagina."
+
+#: ../admin/view/options.php:30
+msgid "General"
+msgstr "Generale"
+
+#: ../admin/view/options.php:44
+msgid "Save Changes"
+msgstr "Salva Cambiamenti"
+
+#~ msgid "Import Markdown - Import"
+#~ msgstr "Import Markdow - Importa"
+
+#~ msgid "Rate this plugin"
+#~ msgstr "Vota questo"
+
+#~ msgid "Please enter a valid post type in the \"Post Type\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un post type valido nella opzione \"Post Type\"."
+
+#~ msgid "List Type"
+#~ msgstr "Tipo Lista"
+
+#~ msgid "P in Table Cell"
+#~ msgstr "P in Celle Tabella"
+
+#~ msgid "P in List Item"
+#~ msgstr "P in Elementi di Lista"
+
+#~ msgid "P Classes"
+#~ msgstr "P Classi"
+
+#~ msgid "A Classes"
+#~ msgstr "A Classi"
+
+#~ msgid "H1 Classes"
+#~ msgstr "H1 Classi"
+
+#~ msgid "H2 Classes"
+#~ msgstr "H2 Classi"
+
+#~ msgid "H3 Classes"
+#~ msgstr "H3 Classi"
+
+#~ msgid "H4 Classes"
+#~ msgstr "H4 Classi"
+
+#~ msgid "H5 Classes"
+#~ msgstr "H5 Classi"
+
+#~ msgid "H6 Classes"
+#~ msgstr "H6 Classi"
+
+#~ msgid "UL Classes"
+#~ msgstr "UL Classi"
+
+#~ msgid "OL Classes"
+#~ msgstr "OL Classi"
+
+#~ msgid "LI Classes"
+#~ msgstr "LI Classi"
+
+#~ msgid "IMG Classes"
+#~ msgstr "IMG Classi"
+
+#~ msgid "A IMG Classes"
+#~ msgstr "A IMG Classi"
+
+#~ msgid "TABLE Classes"
+#~ msgstr "TABLE Classi"
+
+#~ msgid "TR Classes"
+#~ msgstr "TR Classi"
+
+#~ msgid "TD Classes"
+#~ msgstr "TD Classi"
+
+#~ msgid ""
+#~ "The post type to which the posts generated from the imported ODT files "
+#~ "should be assigned."
+#~ msgstr ""
+#~ "Il post type verso il quale devono essere assegnati i post generati dagli "
+#~ "ODT file importati."
+
+#~ msgid "The capability required to get access on the \"ODT\" menu."
+#~ msgstr "La capability richiesta per avere accesso al menu \"ODT\"."
+
+#~ msgid ""
+#~ "ODT files make use of a generic \"list\" element, for this reason you "
+#~ "have to select which type of list element should be generated in the HTML."
+#~ msgstr ""
+#~ "I file ODT fanno uso di un elemento \"list\" generico, per questa ragione "
+#~ "devi selezionare quale tipo di elemento lista deve essere generato "
+#~ "nell'HTML."
+
+#~ msgid ""
+#~ "With this option enabled the paragraphs found inside table cells will be "
+#~ "reported in the generated HTML."
+#~ msgstr ""
+#~ "Con questa opzione abilitata i paragrafi trovati all'interno delle celle "
+#~ "di una tabella verranno riportati nel HTML generato."
+
+#~ msgid ""
+#~ "With this option enabled the paragraphs found inside list items will be "
+#~ "reported in the generated HTML."
+#~ msgstr ""
+#~ "Con questa opzione abilitata i paragrafi trovati all'interno degli "
+#~ "elementi di una lista verranno riportati nel HTML generato."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the P "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento P."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"P Class"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"P Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the A "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento A."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"A Class"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"A Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the H1 "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento H1."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"H1 "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"H1 Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the H2 "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento H2."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"H2 "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"H2 Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the H3 "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento H3."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"H3 "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"H3 Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the H4 "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento H4."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"H4 "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"H4 Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the H5 "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento H5."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"H5 "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"H5 Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the H6 "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento H6."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"H6 "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"H6 Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the UL "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento UL."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"UL "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"UL Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the OL "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento OL."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"OL "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"OL Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the LI "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento LI."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"LI "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"LI Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the IMG "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento IMG."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"IMG "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"IMG Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the A "
+#~ "IMG element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento A IMG."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"A IMG "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"A IMG Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the "
+#~ "TABLE element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento TABLE."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"TABLE "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"TABLE Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the TR "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento TR."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"TR "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"TR Classi\"."
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the TD "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento TD."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"TD "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"TD Classi\"."
+
+#~ msgid ""
+#~ "The uploaded ODT file can't be read. Please make sure that you have "
+#~ "uploaded a valid ODT file and also that the \"zip\" and \"zlib\" PHP "
+#~ "extensions are enabled."
+#~ msgstr ""
+#~ "Il file caricato non può essere letto. Per favore assicurati di aver "
+#~ "caricato un file ODT valido e che siano abilitate le estensioni di \"zip"
+#~ "\" e \"zlib\" di PHP."
+
+#~ msgid ""
+#~ "Please complete the procedure by adding the details related to the upload "
+#~ "images."
+#~ msgstr ""
+#~ "Per favore complete la procedura aggiungendo i dettagli relative alle "
+#~ "immagini caricate."
+
+#~ msgid "Image Details"
+#~ msgstr "Dettagli Immagine"
+
+#~ msgid "Filename:"
+#~ msgstr "Filename:"
+
+#~ msgid ""
+#~ "The filename that should be assigned to the image. Please note that the "
+#~ "file extension remains equal to the file extension of the image "
+#~ "originally included in the ODT file, therefore should not be specified in "
+#~ "this field."
+#~ msgstr ""
+#~ "Il filename del file che deve essere assegnato all'immagine. Per favore "
+#~ "nota che l'estensione del file rimane la stessa del file immagine incluso "
+#~ "in origine nel file ODT, pertanto non deve essere specificata in questo "
+#~ "campo."
+
+#~ msgid "Link:"
+#~ msgstr "Link:"
+
+#~ msgid ""
+#~ "If this value is not empty the image will be linked to the specified URL."
+#~ msgstr ""
+#~ "Se questo valore non è vuoto l'immagine verrà linkata all'URL specificato."
+
+#~ msgid "Alt:"
+#~ msgstr "Alt:"
+
+#~ msgid "The alt attribute of the image."
+#~ msgstr "L'attributo alt dell'immagine."
+
+#~ msgid "Link Target"
+#~ msgstr "Link Target"
+
+#~ msgid ""
+#~ "This option determines the target attribute of the link that includes the "
+#~ "image."
+#~ msgstr ""
+#~ "Questa opzione determina l'attributo target del link che include "
+#~ "l'immagine."
+
+#~ msgid "The title attribute of the image."
+#~ msgstr "L'attributo title dell'immagine."
+
+#~ msgid "Link Nofollow"
+#~ msgstr "Link Nofollow"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid ""
+#~ "This option determines if the link that includes the image should have "
+#~ "the nofollow attribute applied."
+#~ msgstr ""
+#~ "Questa opzione determina se il link che include l'immagine deve avere "
+#~ "l'attributo nofollow specificato."
+
+#~ msgid "Set Details"
+#~ msgstr "Imposta dettagli"
+
+#~ msgid "Please select an ODT file."
+#~ msgstr "Per favore scegli un file ODT."
+
+#~ msgid ""
+#~ "Choose an ODT (.odt) file to upload, then click Upload file and import."
+#~ msgstr ""
+#~ "Scegli un file ODT (.odt) da caricare, poi clicca Carica file e importa."
+
+#~ msgid "Offline Writer - MD"
+#~ msgstr "Offline Writer - MD"
+
+#~ msgid "Offline Writer - ODT"
+#~ msgstr "Offline Writer - ODT"
+
+#~ msgid "Unable to update the post. An error occured."
+#~ msgstr "Non riesco ad aggiornare il post. Si è verificato un errore."
+
+#~ msgid "ODT"
+#~ msgstr "ODT"
+
+#~ msgid "MD"
+#~ msgstr "MD"
+
+#~ msgid "TBODY Classes"
+#~ msgstr "TBODY Classi"
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the "
+#~ "TBODY element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento TBODY."
+
+#~ msgid ""
+#~ "Please enter a valid list of classes separated by a comma in the \"TBODY "
+#~ "Class\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista di classi, separate da virgola, nella "
+#~ "opzione \"TBODY Classi\"."
+
+#~ msgid "Invalid ODT file."
+#~ msgstr "File ODT non valido."
+
+#~ msgid "Choose File"
+#~ msgstr "Scegli File"
+
+#~ msgid ""
+#~ "A list of classes, separated by comma, that should be assigned to the ol "
+#~ "element."
+#~ msgstr ""
+#~ "Una lista di classi, separate da virgola, che deve essere assegnata "
+#~ "all'elemento OLD."
+
+#~ msgid "Activate Post Types (Default)"
+#~ msgstr "Attiva Post Types (Default)"
+
+#~ msgid "Max AIL per Keyword (Default)"
+#~ msgstr "Max AIL per Keyword (Default)"
+
+#~ msgid "Case Insensitive Search (Default)"
+#~ msgstr "Ricerca Case Insensitive (Default)"
+
+#~ msgid "Open New Tab (Default)"
+#~ msgstr "Apri Nuova Tab (Default)"
+
+#~ msgid "Use Nofollow (Default)"
+#~ msgstr "Usa Nofollow (Default)"
+
+#~ msgid "Priority (Default)"
+#~ msgstr "Priorità (Default)"
+
+#~ msgid "Max AIL per Post"
+#~ msgstr "Max AIL per Post"
+
+#~ msgid "Protected Tags"
+#~ msgstr "Tag Protetti"
+
+#~ msgid "Enable AIL (Default)"
+#~ msgstr "Abilita AIL (Default)"
+
+#~ msgid "Test Mode"
+#~ msgstr "Modalità Test"
+
+#~ msgid "Source Post Types"
+#~ msgstr "Sorgente Post Types"
+
+#~ msgid "Results Pool Size"
+#~ msgstr "Dimensione Pool Risultati"
+
+#~ msgid "Titles"
+#~ msgstr "Titoli"
+
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#~ msgid "Tags"
+#~ msgstr "Tag"
+
+#~ msgid "Characters per Interlink"
+#~ msgstr "Caratteri per Interlink"
+
+#~ msgid "Optimization Delta"
+#~ msgstr "Delta Ottimizzazione"
+
+#~ msgid "SEO Power (Default)"
+#~ msgstr "SEO Power (Default)"
+
+#~ msgid "Penality per Position (%)"
+#~ msgstr "Penalita per Posizione (%)"
+
+#~ msgid "Remove Link to Anchor"
+#~ msgstr "Rimuovi Link ad Ancora"
+
+#~ msgid "Remove URL Parameters"
+#~ msgstr "Rimuovi Parametri URL"
+
+#~ msgid "Track Internal Links"
+#~ msgstr "Traccia Link Interni"
+
+#~ msgid "Set Max Execution Time"
+#~ msgstr "Imposta Max Execution Time"
+
+#~ msgid "Max Execution Time Value"
+#~ msgstr "Valore Max Execution Time"
+
+#~ msgid "Set Memory Limit"
+#~ msgstr "Imposta Memory Limit"
+
+#~ msgid "Memory Limit Value"
+#~ msgstr "Valore Memory Limit"
+
+#~ msgid "Limit Posts Analysis"
+#~ msgstr "Limita Analisi dei Post"
+
+#~ msgid "Dashboard Post Types"
+#~ msgstr "Dashboard Post Types"
+
+#~ msgid "Juice Post Types"
+#~ msgstr "Juice Post Types"
+
+#~ msgid "Interlinks Options Post Types"
+#~ msgstr "Opzioni Interlinks Post Types"
+
+#~ msgid "Interlinks Optimization Post Types"
+#~ msgstr "Ottimizzazione Interlinks Post Types"
+
+#~ msgid "Interlinks Suggestions Post Types"
+#~ msgstr "Suggerimenti Interlinks Post Types"
+
+#~ msgid "Dashboard Menu"
+#~ msgstr "Dashboard Menu"
+
+#~ msgid "Juice Menu"
+#~ msgstr "Juice Menu"
+
+#~ msgid "Hits Menu"
+#~ msgstr "Hits Menu"
+
+#~ msgid "AIL Menu"
+#~ msgstr "AIL Menu"
+
+#~ msgid "Interlinks Options Meta Box"
+#~ msgstr "Opzioni Interlinks Meta Box"
+
+#~ msgid "Interlinks Optimization Meta Box"
+#~ msgstr "Ottimizzazione Interlinks Meta Box"
+
+#~ msgid "Interlinks Suggestions Meta Box"
+#~ msgstr "Suggerimenti Interlinks Meta Box"
+
+#~ msgid ""
+#~ "Enter a list of post types separated by a comma. This option determines "
+#~ "the default value of the \"Activate Post Types\" field available in the "
+#~ "AIL menu."
+#~ msgstr ""
+#~ "Inserisci una lista di post types separati da virgola. Questa opzione "
+#~ "determina il valore di default del campo \"Attiva Post Types\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Default Activate Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da una "
+#~ "virgola nella opzione \"Default Activate Post Types\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. This option determines the "
+#~ "default value of the \"Max Number AIL\" field available in the AIL menu."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000. Questa opzione determina "
+#~ "il valore di default del campo \"Massimo numero AIL\" disponibile nel "
+#~ "menu AIL."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max AIL per Keyword "
+#~ "(Default)\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Max AIL "
+#~ "per Keyword (Default)\"."
+
+#~ msgid ""
+#~ "This option determines the default value of the \"Case Insensitive Search"
+#~ "\" field available in the AIL menu."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default di \"Ricerca Case "
+#~ "Insensitive\" disponibile nel menu AIL."
+
+#~ msgid ""
+#~ "This option determines the default value of the \"Use Nofollow\" field "
+#~ "available in the AIL menu."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000. This option determines the "
+#~ "default value of the \"Priority\" field available in the AIL menu."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000. Questa opzione determina "
+#~ "il valore di default del campo \"Priorità\" disponibile nel menu AIL."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000 in the \"Priority (Default)\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000 nella opzione \"Priorità "
+#~ "(Default)\"."
+
+#~ msgid ""
+#~ "Please enter number from 1 to 1000000. This option determines the maximum "
+#~ "number of autolinks per post."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000. Questa opzione determina "
+#~ "il massimo numero di autolinks per post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max AIL per Post\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Max AIL "
+#~ "per Post\"."
+
+#~ msgid ""
+#~ "Please enter a valid list of protected tags separated by a comma in the "
+#~ "\"Protected Tags\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di tag separati da virgola nella "
+#~ "opzione \"Tag Protetti\"."
+
+#~ msgid ""
+#~ "This option determines the default status of the \"Enable AIL\" option "
+#~ "available in the \"Interlinks Options\" meta box."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default dell'opzione \"Abilita AIL"
+#~ "\" disponibile nel meta box \"Opzioni Interlinks\"."
+
+#~ msgid ""
+#~ "With the test mode enabled the AIL will be applied to your posts, pages "
+#~ "or custom post types only if the user that is requesting the posts, pages "
+#~ "or custom post types has the capability defined with the \"AIL Menu\" "
+#~ "option."
+#~ msgstr ""
+#~ "Con la modalità test attivata gli AIL verranno applicati agli articoli, "
+#~ "pagine e custom post types solo se l'utente che sta visualizzando "
+#~ "l'articolo, la pagina o il custom post type possiede la capability "
+#~ "definita nella opzione \"AIL Menu\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the algorithm available "
+#~ "in the \"Interlinks Suggestions\" meta box should look for suggestions."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove l'algoritmo "
+#~ "disponibile nel meta box \"Suggerimenti Interlinks\" deve cercare i "
+#~ "suggerimenti."
+
+#~ msgid ""
+#~ "Please enter a number from 5 to 1000000. This option determines the "
+#~ "maximum number of results returned by the algorithm available in the "
+#~ "\"Interlinks Suggestions\" meta box. ( The five results shown for each "
+#~ "iteration are retrieved from a pool of results which has, as a maximum "
+#~ "size, the value defined with this option. )"
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 5 e 1000000. Questa opzione determina "
+#~ "il massimo numero di risultati ritornati dall'algoritmo disponibile nel "
+#~ "meta box \"Suggerimenti Interlinks\". ( I cinque risultati mostrati per "
+#~ "ogni iterazione sono recuperati da un pool di risultati che, come "
+#~ "dimensione massima, ha il valore definito con questa opzione. )"
+
+#~ msgid "Please enter a number from 5 to 1000000 in the \"Pool Size\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 5 e 1000000 nella opzione \"Pool Size"
+#~ "\"."
+
+#~ msgid "Consider"
+#~ msgstr "Considera"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignora"
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the posts, pages and custom post types titles."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare i titoli degli articoli, delle pagine e dei custom "
+#~ "post types."
+
+#~ msgid "Require"
+#~ msgstr "Richiedi"
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the post categories. If \"Required\" is selected the "
+#~ "algorithm will return only posts that have at least one category in "
+#~ "common with the edited post."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare le categorie dei post. Se \"Richiesto\" è selezionato "
+#~ "l'algoritmo ritornerà solo i post che hanno almeno una categoria in "
+#~ "comune con il post editato."
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the post tags. If \"Required\" is selected the "
+#~ "algorithm will return only posts that have at least one tag in common "
+#~ "with the edited post."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare i tag del post. Se \"Richiesto\" è selezionato "
+#~ "l'algoritmo ritornerà solo i post che hanno almeno un tag in comune con "
+#~ "il post editato."
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the post type. If \"Required\" is selected the "
+#~ "algorithm will return only posts that belong to the same post type of the "
+#~ "edited post."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare il post type. Se \"Richiesto\" è selezionato "
+#~ "l'algoritmo ritornerà solo post che appartengono allo stesso post type "
+#~ "del post editato."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. The \"Recommended Interlinks\" "
+#~ "value available in the \"Dashboard\" menu and in the \"Interlinks "
+#~ "Optimization\" meta box is based on the defined \"Characters per Interlink"
+#~ "\" and on the content length of the post. For example if you define 500 "
+#~ "\"Characters per Interlink\", in the \"Dashboard\" menu, with a post that "
+#~ "has a content length of 2000 characters you will get 4 as the value for "
+#~ "the \"Recommended Interlinks\"."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000. Il valore di \"Interlinks "
+#~ "Raccomandati\" disponibile nel menu \"Dashboard\" e nel meta box "
+#~ "\"Ottimizzazione Interlinks\" è basato sul valore definito di \"Caratteri "
+#~ "per Interlink\" e sulla lunghezza del contenuto del post. Per esempio se "
+#~ "tu definisci 500 \"Caratteri per Interlink\", nel menu \"Dashboard\", con "
+#~ "un post che ha una lunghezza di 2000 caratteri avrai 4 come valore di "
+#~ "\"Interlinks Raccomandati\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Characters per Interlink"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Caratteri "
+#~ "per Interlink\"."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000. The \"Optimization Delta\" is "
+#~ "used to generate the \"Optimization Flag\" available in the \"Dashboard\" "
+#~ "menu and the text message diplayed in the \"Interlinks Optimization\" "
+#~ "meta box. This option determines how different can be the actual number "
+#~ "of interlinks in a post from the calculated \"Recommended Interlinks\". "
+#~ "This option defines a range, so for example in a post with 10 "
+#~ "\"Recommended Interlinks\" and this option value equal to 4, the post "
+#~ "will be considered optimized when it includes from 8 to 12 interlinks."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000. Il valore di \"Delta "
+#~ "Ottimizzazione\" è utilizzato per generare la \"Flag Ottimizzazione\" "
+#~ "disponibile nel menu \"Dashboard\" ed il messaggio di testo mostrato nel "
+#~ "meta box \"Ottimizzazione Interlinks\". Questa opzione determina quanto "
+#~ "differente può essere l'effettivo numero di interlinks in un post "
+#~ "rispetto al valore calcolato di \"Interlinks Raccomandati\". Questa "
+#~ "opzione definisce un intervallo, così per esempio in un post con 10 "
+#~ "\"Interlinks Raccomandati\" e questa opzione con valore uguale a 4, il "
+#~ "post verrà considerato ottimizzato quando include tra 8 e 12 interlinks."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000 in the \"Optimization Delta\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000 nella opzione \"Delta "
+#~ "Ottimizzazione\"."
+
+#~ msgid ""
+#~ "Please enter a number from 100 to 1000000. The \"SEO Power\" is the base "
+#~ "value used to calculate the flow of \"Link Juice\" and this option "
+#~ "determines the default \"SEO Power\" value of a post. You can override "
+#~ "this value for specific posts in the \"Interlinks Options\" meta box."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 100 e 1000000. Il \"SEO Power\" è il "
+#~ "valore base utilizzato per calcolare il flusso di \"Link Juice\" e questa "
+#~ "opzione determina il valore di default di \"SEO Power\" di un post. Puoi "
+#~ "sovrascrivere il valore per uno specifico post con il meta box \"Opzioni "
+#~ "Interlinks\"."
+
+#~ msgid ""
+#~ "Please enter a number from 100 to 1000000 in the \"SEO Power (Default)\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 100 to 1000000 nella opzione \"SEO "
+#~ "Power (Default)\"."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 100. With multiple links in an article, "
+#~ "the algorithm that calculates the \"Link Juice\" passed by each link "
+#~ "removes a percentage of the passed \"Link Juice\" based on the position "
+#~ "of a link compared to the other links."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 100. Con interlinks multipli in un "
+#~ "articolo, l'algoritmo che calcola il \"Link Juice\" passato da ogni link "
+#~ "rimuove una percentuale del \"Link Juice\" passato basandosi sulla "
+#~ "posizione del link comparata a quella degli altri link."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 100 in the \"Penality per position\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 100 nella opzione \"Penalità per "
+#~ "posizione\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to automatically remove links to anchors from every URL "
+#~ "used to calculate the link juice. With this option enabled \"http://"
+#~ "example.com\" and \"http://example.com#myanchor\" will both contribute to "
+#~ "generate link juice only for a single URL, that is \"http://example.com\"."
+#~ msgstr ""
+#~ "Scegli \"Yes\" per rimuovere automaticamente i link ad ancore da ogni URL "
+#~ "utilizzato per calcolare il link juice. Con questa opzione abilitata "
+#~ "\"http://example.com\" e \"http://example.com#myanchor\" contribuiranno "
+#~ "entrambi a generare link juice solo per il singolo link \"http://example."
+#~ "com\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to automatically remove the URL parameters from every URL "
+#~ "used to calculate the link juice. With this option enabled \"http://"
+#~ "example.com\" and \"http://example.com?param=1\" will both contribute to "
+#~ "generate link juice only for a single URL, that is \"http://example.com"
+#~ "\". Please note that this option should not be enabled if your website is "
+#~ "using URL parameters to actually identify specific pages. ( for example "
+#~ "with pretty permalinks not enabled )"
+#~ msgstr ""
+#~ "Scegli \"Yes\" per rimuovere automaticamente il parametri del URL da ogni "
+#~ "URL utilizzato per calcolare il link juice. Con questa opzione abilitata "
+#~ "\"http://example.com\" e \"http://example.com?param=1\" contribuiranno "
+#~ "entrambi a generare link juice per il solo link \"http://example.com\". "
+#~ "Per favore nota che questa opzione non deve essere abilitata se il tuo "
+#~ "sito utilizza i parametri del URL per identificare specifiche pagine. "
+#~ "( per esempio quando i pretty permalink non sono abilitati )"
+
+#~ msgid ""
+#~ "With this option enabled every click on the manual and auto internal "
+#~ "links will be tracked. The collected data will be available in the \"Hits"
+#~ "\" menu."
+#~ msgstr ""
+#~ "Con questa opzione abilitata ogni click sui link manuali ed automatici "
+#~ "verrà tracciato. I data collezionati saranno disponibili nel menu \"Hits"
+#~ "\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to enable your custom \"Max Execution Time Value\" on the "
+#~ "scripts used to analyze your posts."
+#~ msgstr ""
+#~ "Scegli \"Yes\" per abilitare il \"Valore Max Execution Time\" sugli "
+#~ "script utilizzati per analizzare i post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. This value determines the "
+#~ "maximum number of seconds allowed to execute the scripts used to analyze "
+#~ "your posts."
+#~ msgstr ""
+#~ "Inserisci un numero tra 1 e 1000000. Questo valore determina il numero "
+#~ "massimo di secondi permessi per eseguire gli script utilizzati per "
+#~ "analizzare i post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max Execution Time Value"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Valore Max "
+#~ "Execution Time\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to enable your custom \"Memory Limit Value\" on the "
+#~ "scripts used to analyze your posts."
+#~ msgstr ""
+#~ "Scegli \"Yes\" per abilitare il tuo valore personalizzato di \"Valore "
+#~ "Memory Limit\" sugli script utilizzati per analizzare i post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. This value determines the PHP "
+#~ "memory limit in megabytes allowed to execute the scripts used to analyze "
+#~ "your posts."
+#~ msgstr ""
+#~ "Per favore inserisci un numero da 1 a 1000000. Questo valore determina il "
+#~ "limite di memoria PHP ( in megabytes ) permesso per eseguire gli script "
+#~ "utilizzati per analizzare i post. "
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Memory Limit Value\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero da 1 a 1000000 nella opzione \"Valore "
+#~ "Memory Limit\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 100000. With this options you can "
+#~ "determine the maximum number of posts analyzed to get information about "
+#~ "your internal links, to get information about the internal links juice "
+#~ "and to get suggestions in the \"Interlinks Suggestions\" meta box. If you "
+#~ "select for example \"1000\", the analysis performed by the plugin will "
+#~ "use your latest \"1000\" posts."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 100000. Con questa opzione puoi "
+#~ "determinare il massimo numero di post analizzati per recuperare "
+#~ "informazioni sui tuoi link interni, per recuperare informazioni sul link "
+#~ "juice e per fornire suggerimenti nel meta box \"Interlinks Suggestions\". "
+#~ "Se scegli per esempio \"1000\", l'analisi effettuata dal plugin "
+#~ "utilizzerà i tuoi ultimi \"1000\" post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 100000 in the \"Limit Posts Analysis\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 100000 nella opzione \"Limite "
+#~ "Analisi Post\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, used to determine the post "
+#~ "types analyzed in the Dashboard menu."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, utilizzata per determinare "
+#~ "i post types analizzati nel menu Dashboard."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Dashboard Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Dashboard Post Types\"."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Juice Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Juice Post Types\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the \"Interlinks Options"
+#~ "\" meta box should be loaded."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove il meta box \"Opzioni "
+#~ "Interlinks\" deve essere caricato."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Interlinks Options Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserici una lista valida di post types separati da virgola "
+#~ "nella opzione \"Opzioni Interlinks Post Types\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the \"Interlinks "
+#~ "Optimization\" meta box should be loaded."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove il meta box "
+#~ "\"Ottimizzazione Interlinks\" deve essere caricato."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Interlinks Optimization Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Ottimizzazione Interlinks Post Types\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the \"Interlinks "
+#~ "Suggestions\" meta box should be loaded."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove il meta box "
+#~ "\"Suggerimenti Interlinks\" deve essere caricato."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Interlinks Suggestions Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Suggerimenti Interlinks Post Types\"."
+
+#~ msgid "The capability required to get access on the \"Dashboard\" Menu."
+#~ msgstr "La capability richiesta per avere accesso al menu \"Dashboard\"."
+
+#~ msgid "Please enter a valid capability in the \"Dashboard Menu\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"Dashboard Menu"
+#~ "\"."
+
+#~ msgid "The capability required to get access on the \"Juice\" Menu."
+#~ msgstr "La capability richiesta per avere accesso al menu \"Juice\"."
+
+#~ msgid "The capability required to get access on the \"Hits\" Menu."
+#~ msgstr "La capability richiesta per avere accesso al menu \"Hits\"."
+
+#~ msgid "Please enter a valid capability in the \"AIL Menu\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"AIL Menu\"."
+
+#~ msgid ""
+#~ "The capability required to get access on the \"Interlinks Options\" Meta "
+#~ "Box."
+#~ msgstr ""
+#~ "La capability richiesta per avere accesso al meta box \"Opzioni Interlinks"
+#~ "\"."
+
+#~ msgid ""
+#~ "Please enter a valid capability in the \"Interlinks Options Meta Box\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"Interlinks "
+#~ "Options Meta Box\"."
+
+#~ msgid ""
+#~ "The capability required to get access on the \"Interlinks Optimization\" "
+#~ "Meta Box."
+#~ msgstr ""
+#~ "La capability richiesta per avere accesso al meta box \"Ottimizzazione "
+#~ "Interlinks\"."
+
+#~ msgid ""
+#~ "Please enter a valid capability in the \"Interlinks Optimization Meta Box"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"Interlinks "
+#~ "Optimization Meta Box\"."
+
+#~ msgid ""
+#~ "The capability required to get access on the \"Interlinks Suggestions\" "
+#~ "Meta Box."
+#~ msgstr ""
+#~ "La capability richiesta per avere accesso al meta box \"Suggerimenti "
+#~ "Interlinks\"."
+
+#~ msgid ""
+#~ "Please enter a valid capability in the \"Interlinks Suggestions Meta Box"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore iserisci una capability valida nella opzione \"Interlinks "
+#~ "Suggestions Meta Box\"."
+
+#~ msgid "Interlinks Options"
+#~ msgstr "Opzioni Interlinks"
+
+#~ msgid "Interlinks Optimization"
+#~ msgstr "Ottimizzazione Interlinks"
+
+#~ msgid "Interlinks Suggestions"
+#~ msgstr "Suggerimenti Interlinks"
+
+#~ msgid "SEO Power:"
+#~ msgstr "SEO Power:"
+
+#~ msgid "The SEO Power of this post."
+#~ msgstr "Il SEO Power di questo post."
+
+#~ msgid "Select \"Yes\" to enable the AIL in this post."
+#~ msgstr "Scegli \"Si\" per abilitare gli AIL in questo post."
+
+#~ msgid "The number of interlinks included in this post is optimized."
+#~ msgstr "Il numero di interlinks inclusi in questo post è ottimizzato."
+
+#~ msgid "Please optimize the number of interlinks, this post currently has"
+#~ msgstr ""
+#~ "Per favore ottimizza il numero di interlinks, questo post al momento ha"
+
+#~ msgid "interlinks"
+#~ msgstr "interlinks"
+
+#~ msgid "manual interlinks and"
+#~ msgstr "interlinks manuali e"
+
+#~ msgid "auto interlinks"
+#~ msgstr "interlinks automatici"
+
+#~ msgid ""
+#~ "Based on the content length and on your options their number should be"
+#~ msgstr ""
+#~ "Basandosi sulla lunghezza del post e sulle opzioni correnti il loro "
+#~ "numero deve essere"
+
+#~ msgid ""
+#~ "Based on the content length and on your options their number should be "
+#~ "included between"
+#~ msgstr ""
+#~ "Basandosi sulla lunghezza del post e sulle opzioni correnti il loro "
+#~ "numero deve essere incluso tra"
+
+#~ msgid "and"
+#~ msgstr "e"
+
+#~ msgid ""
+#~ "Click the \"Generate\" button multiple times until you can find posts "
+#~ "suitable to be used as interlinks of this post."
+#~ msgstr ""
+#~ "Clicca il pulsante \"Genera\" più volte finché trovi dei post adatti ad "
+#~ "essere utilzzati come interlinks di questo post."
+
+#~ msgid "Post"
+#~ msgstr "Post"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "PT"
+#~ msgstr "PT"
+
+#~ msgid "CL"
+#~ msgstr "CL"
+
+#~ msgid "MIL"
+#~ msgstr "MIL"
+
+#~ msgid "AIL"
+#~ msgstr "AIL"
+
+#~ msgid "RI"
+#~ msgstr "RI"
+
+#~ msgid "VS"
+#~ msgstr "VS"
+
+#~ msgid "OF"
+#~ msgstr "OF"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "IIL"
+#~ msgstr "IIL"
+
+#~ msgid "Juice (Value)"
+#~ msgstr "Juice (Valore)"
+
+#~ msgid "Link Juice"
+#~ msgstr "Link Juice"
+
+#~ msgid "Link Content"
+#~ msgstr "Contenuto Link"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Please enter a valid value in the \"Keyword\" field."
+#~ msgstr "Per favore inserisci un valore valido nel campo \"Keyword\"."
+
+#~ msgid ""
+#~ "Please enter a valid URL Path and/or File in the \"Target\" field. ( the "
+#~ "URL scheme and domain are implied )"
+#~ msgstr ""
+#~ "Per favore inserisci il percorso dell'URL e/o File. ( lo schema ed il "
+#~ "dominio dell'URL sono impliciti )"
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Activate Post Types\" field."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da una "
+#~ "virgola nella opzione \"Attiva Post Types\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max Number AIL\" field."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Massimo "
+#~ "Numero AIL\"."
+
+#~ msgid "Please enter a number from 0 to 1000000 in the \"Priority\" field."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000 nella opzione \"Priorità "
+#~ "\"."
+
+#~ msgid "Interlinks Manager - AIL"
+#~ msgstr "Interlinks Manager - AIL"
+
+#~ msgid "Keyword"
+#~ msgstr "Keyword"
+
+#~ msgid "The keyword that will be converted to a link."
+#~ msgstr "La keyword che verrà convertita in un link."
+
+#~ msgid "The target of the link automatically generated on the keyword."
+#~ msgstr "Il target del link generato automaticamente sulla keyword."
+
+#~ msgid "items"
+#~ msgstr "record"
+
+#~ msgid "Edit AIL"
+#~ msgstr "Modifica AIL"
+
+#~ msgid "The Keyword"
+#~ msgstr "La Keyword"
+
+#~ msgid "Target ( URL Path and/or File )"
+#~ msgstr "Target ( Percorso URL e/o File )"
+
+#~ msgid "/hello-world/"
+#~ msgstr "/ciao-mondo/"
+
+#~ msgid ""
+#~ "The target of the link automatically generated on the keyword. Please "
+#~ "note that the URL scheme and domain are implied."
+#~ msgstr ""
+#~ "Il target del link automaticamente generato sulla keyword. Per favore "
+#~ "nota che lo schema ed il dominio dell'URL sono impliciti."
+
+#~ msgid "Left Boundary"
+#~ msgstr "Confine sinistro"
+
+#~ msgid "Generic"
+#~ msgstr "Generico"
+
+#~ msgid "White Space"
+#~ msgstr "Spazio Bianco"
+
+#~ msgid "Comma"
+#~ msgstr "Virgola"
+
+#~ msgid "Point"
+#~ msgstr "Punto"
+
+#~ msgid ""
+#~ "The \"Left Boundary\" option can be used to target keywords preceded by a "
+#~ "generic boundary or by a specific character."
+#~ msgstr ""
+#~ "Questa opzione può essere utilizzata per considerare delle keyword "
+#~ "precedute da un confine generico o da uno specifico carattere."
+
+#~ msgid "Right Boundary"
+#~ msgstr "Confine Destro"
+
+#~ msgid ""
+#~ "The \"Right Boundary\" option can be used to target keywords followed by "
+#~ "a generic boundary or by a specific character."
+#~ msgstr ""
+#~ "Questa opzione può essere utilizzata per considerare delle keyword "
+#~ "seguite da un confine generico o da uno specifico carattere."
+
+#~ msgid "Activate Post Types"
+#~ msgstr "Attiva Post Types"
+
+#~ msgid "The Activate Post Types"
+#~ msgstr "The Activate Post Types"
+
+#~ msgid ""
+#~ "Enter a list of post types separated by a comma. With this option you are "
+#~ "able to determine in which post types the defined keyword will be "
+#~ "automatically converted to a link."
+#~ msgstr ""
+#~ "Inserisci una lista di post types separati da virgola. Questa opzione "
+#~ "determina in quali post types la keyword definita verrà automaticamente "
+#~ "convertita in un link."
+
+#~ msgid "Max Number AIL"
+#~ msgstr "Massimo Numero AIL"
+
+#~ msgid "The Max Number of Autolinks"
+#~ msgstr "Il numero massimo di link automatici"
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. With this option you can "
+#~ "determine the maximum number of matches of this keyword automatically "
+#~ "converted to a link."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 .Questa opzione determina "
+#~ "il numero massimo di volte in cui una la keyword viene convertita in un "
+#~ "link."
+
+#~ msgid "Case Insensitive Search"
+#~ msgstr "Ricerca Case Insensitive"
+
+#~ msgid ""
+#~ "If you select \"Yes\" your keyword will match both lowercase and "
+#~ "uppercase variations."
+#~ msgstr ""
+#~ "Se scegli \"Si\" la keyword verrà applicata sia per le variazioni "
+#~ "minuscule che per le variazioni maiuscole."
+
+#~ msgid "Open New Tab"
+#~ msgstr "Apri Nuova Tab"
+
+#~ msgid ""
+#~ "If you select \"Yes\" the link generated on the defined keyword opens its "
+#~ "URL on a new browser tab."
+#~ msgstr ""
+#~ "Se scegli \"Yes\" il link generato sulla keyword definita si aprirà in "
+#~ "una nuova tab del browser."
+
+#~ msgid ""
+#~ "If you select \"Yes\" the link generated on the defined keyword will "
+#~ "include the rel=\"nofollow\" attribute."
+#~ msgstr ""
+#~ "Se scegli \"Si\" il link generato sulla keyword definita includerà rel="
+#~ "\"nofollow\". "
+
+#~ msgid "Priority"
+#~ msgstr "Priorità"
+
+#~ msgid "The Priority"
+#~ msgstr "La priorità"
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000. The priority value determines "
+#~ "the order of the substitutions of the keywords. If there are multiple "
+#~ "keywords in a post and the \"Max AIL per Post\" option does not allow to "
+#~ "generate autolinks for all the keywords, you can increase the priority of "
+#~ "a specific keyword to make sure that in this particular situation that "
+#~ "keyword has a priority over the others and gets actually converted to a "
+#~ "link."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000. Il valore della priorità "
+#~ "determina in quale ordine vengono sostituite le keyword. Se ci sono "
+#~ "multiple keyword in un post e \"Max AIL per Post\" non permette di "
+#~ "generare link automatici per tutte le keyword, puoi incrementare la "
+#~ "priorità di una specifica keyword per assicurarti che in questa "
+#~ "particolare situazione la keyword abbia priorità sulle altre e venga "
+#~ "effettivamente convertita in un link. "
+
+#~ msgid "Update Autolink"
+#~ msgstr "Aggiorna Autolink"
+
+#~ msgid "Create New AIL"
+#~ msgstr "Crea Nuovo AIL"
+
+#~ msgid "The Priority of this Keyword"
+#~ msgstr "La priorità di questa keyword"
+
+#~ msgid "Add Autolink"
+#~ msgstr "Aggiungi Autolink"
+
+#~ msgid "The post, page or custom post type title."
+#~ msgstr "Il titolo dell'articolo, pagina o custom post type."
+
+#~ msgid "The post, page or custom post type publishing date."
+#~ msgstr "La data di pubblicazione dell'articolo, pagina o custom post type."
+
+#~ msgid "The post type."
+#~ msgstr "Il post type."
+
+#~ msgid "The length of the raw ( with filters not applied ) post content."
+#~ msgstr ""
+#~ "La lunghezza grezza ( con filtri non applicati ) del contenuto del post."
+
+#~ msgid "The manual internal links of the post."
+#~ msgstr "I link interni manuali del post."
+
+#~ msgid "The auto internal links of the post."
+#~ msgstr "I link interni automatici del post."
+
+#~ msgid ""
+#~ "The recommended number of interlinks. This value is based on the post "
+#~ "length and on the \"Characters per Interlink\" option that you defined on "
+#~ "the plugin options."
+#~ msgstr ""
+#~ "Il numero raccomandato di interlinks. Questo valore è basato sulla "
+#~ "lunghezza del post e sulla opzione \"Caratteri per Interlink\" definita "
+#~ "nelle opzioni del plugin."
+
+#~ msgid "VG"
+#~ msgstr "VG"
+
+#~ msgid "The number of visits generated with the internal links of this post."
+#~ msgstr "Il numero di visite generate con i link interni di questo post."
+
+#~ msgid ""
+#~ "The \"Optimization Flag\" is based on the post length, on the "
+#~ "\"Characters per Interlink\" option and on the \"Optimization Delta\" "
+#~ "option that you defined on the plugin options."
+#~ msgstr ""
+#~ "La \"Flag Ottimizzazione\" è basata sulla lunghezza del post, sulla "
+#~ "opzione \"Caratteri per Interlink\" e sulla opzione \"Delta Ottimizzazione"
+#~ "\" definite nelle opzioni del plugin."
+
+#~ msgid ""
+#~ "There are no data at moment, click on the \"Generate Data\" button to "
+#~ "generate data and statistics about the internal links of your blog."
+#~ msgstr ""
+#~ "Non ci sono dati al momento. Clicca sul pulsante \"Genera Dati\" per "
+#~ "generare dati e statistiche relativi ai link interni del tuo blog."
+
+#~ msgid ""
+#~ "This procedure allows you to generate data and statistics about the "
+#~ "internal links of your blog."
+#~ msgstr ""
+#~ "Questa procedura ti permette di generare dati e statistiche relative ai "
+#~ "link interni del blog."
+
+#~ msgid "Generate Data"
+#~ msgstr "Genera Dati"
+
+#~ msgid "Export CSV"
+#~ msgstr "Esporta CSV"
+
+#~ msgid ""
+#~ "The downloaded CSV file can be imported in your favorite spreadsheet "
+#~ "software."
+#~ msgstr ""
+#~ "Il file CSV scaricabile può essere importato nel tuo software spreadsheet "
+#~ "preferito."
+
+#~ msgid "Download"
+#~ msgstr "Scarica"
+
+#~ msgid "Filter & Sort"
+#~ msgstr "Filtra e Ordina"
+
+#~ msgid "All"
+#~ msgstr "Tutti"
+
+#~ msgid "Not Optimized"
+#~ msgstr "Non Ottimizzati"
+
+#~ msgid "Optimized"
+#~ msgstr "Ottimizzati"
+
+#~ msgid "Sort By"
+#~ msgstr "Ordina Per"
+
+#~ msgid "Title"
+#~ msgstr "Titolo"
+
+#~ msgid "Content Length"
+#~ msgstr "Lunghezza Contenuto"
+
+#~ msgid "Manual Interlinks"
+#~ msgstr "Interlinks Manuali"
+
+#~ msgid "Auto Interlinks"
+#~ msgstr "Interlinks Automatici"
+
+#~ msgid "Order"
+#~ msgstr "Ordine"
+
+#~ msgid "Descending"
+#~ msgstr "Discendente"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascendente"
+
+#~ msgid "Apply Query"
+#~ msgstr "Applica Query"
+
+#~ msgid "Data succesfully deleted."
+#~ msgstr "Dati cancellatti con successo."
+
+#~ msgid "Interlinks Manager - Hits"
+#~ msgstr "Interlinks Manager - Hits"
+
+#~ msgid ""
+#~ "The post, page or custom post type that includes the link that received a "
+#~ "click."
+#~ msgstr "Il post che include il link che ha ricevuto il click."
+
+#~ msgid "The date on which the link has been clicked."
+#~ msgstr "La data nella quale il link è stato cliccato."
+
+#~ msgid ""
+#~ "The type of the clicked link, \"MIL\" for the manual internal links and "
+#~ "\"AIL\" for the auto internal links."
+#~ msgstr ""
+#~ "Il tipo di link cliccato, \"MIL\" per i link interni manuali e \"AIL\" "
+#~ "per i link interni automatici."
+
+#~ msgid "There are no hits at the moment."
+#~ msgstr "Non ci sono hits al momento."
+
+#~ msgid "Reset Hits"
+#~ msgstr "Cancella Hits"
+
+#~ msgid "This procedure allows you to reset the hits."
+#~ msgstr "Questa procedura ti permette di cancellare gli hits."
+
+#~ msgid "Reset"
+#~ msgstr "Cancella"
+
+#~ msgid "Interlinks Manager - Juice"
+#~ msgstr "Interlinks Manager - Juice"
+
+#~ msgid "The URL that receives the link juice."
+#~ msgstr "L'URL che riceve il link juice."
+
+#~ msgid "The number of internal inbound links received by the URL."
+#~ msgstr "Il numero di link interni inbound ricevuti dall'URL."
+
+#~ msgid "The link juice received by the URL."
+#~ msgstr "Il link juice ricevuto dall'URL."
+
+#~ msgid "Juice (Visual)"
+#~ msgstr "Juice (Visuale)"
+
+#~ msgid "The visual representation of the link juice received by the URL."
+#~ msgstr "La rappresentazione visuale del link juice ricevuto dall'URL."
+
+#~ msgid ""
+#~ "Download a CSV file that includes a list of the links that contribute to "
+#~ "generate the overall link juice of this URL."
+#~ msgstr ""
+#~ "Scarica un file CSV che include una lista dei link che hanno contribuito "
+#~ "a generare il link juice complessivo di questo URL."
+
+#~ msgid ""
+#~ "There are no data at moment, click on the \"Generate Data\" button to "
+#~ "generate data about the flow of \"Link Juice\" on the URLs of your "
+#~ "website."
+#~ msgstr ""
+#~ "Non ci sono dati al momento. Clicca sul pulsante \"Genera Dati\" per "
+#~ "generare dati relativi al flusso di \"Link Juice\" verso gli URL del tuo "
+#~ "sito."
+
+#~ msgid "Juice Data"
+#~ msgstr "Juice Data"
+
+#~ msgid ""
+#~ "This procedure allows you to generate data about the flow of \"Link Juice"
+#~ "\" on the URLs of your website."
+#~ msgstr ""
+#~ "Questa procedura ti permette di generare i dati relativi al flusso di "
+#~ "\"Link Juice\" verso gli URL del tuo sito."
+
+#~ msgid "Suggestions"
+#~ msgstr "Suggerimenti"
+
+#~ msgid "Juice"
+#~ msgstr "Juice"
+
+#~ msgid "Tracking"
+#~ msgstr "Tracking"
+
+#~ msgid "Analysis"
+#~ msgstr "Analisi"
+
+#~ msgid "Meta Boxes"
+#~ msgstr "Meta Box"
+
+#~ msgid "Capabilities"
+#~ msgstr "Capability"
+
+#~ msgid ""
+#~ "There are no interlinks suggestions at the moment, please use this "
+#~ "functionality when you have at least five posts ( other than the current "
+#~ "one ) that match the criteria you defined in the \"Suggestions\" options."
+#~ msgstr ""
+#~ "Non ci sono interlinks suggeriti al momento, per favore utilizza questa "
+#~ "funzionalità quando ci sono almeno cinque post ( oltre a quello "
+#~ "corrente ) che soddisfano i criteri che hai definito nella sezione "
+#~ "\"Suggerimenti\"."
+
+#~ msgid ""
+#~ "There are no data at moment, click on the \"Update\" button to generate a "
+#~ "database with all the internal links of you website."
+#~ msgstr ""
+#~ "Non ci sono dati al momento. Clicca sul pulsante \"Aggiorna\" per "
+#~ "generare un database con tutti i link interni del tuo sito."

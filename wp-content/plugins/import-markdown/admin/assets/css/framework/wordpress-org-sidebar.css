@@ -1,0 +1,45 @@
+/* wordpress-org-sidebar */
+.main-container {
+    width: calc(100% - 300px);
+    float: left;
+}
+
+.sidebar-container {
+    margin-left: 20px;
+    float: right;
+    width: 280px;
+}
+
+.sidebar-container a {
+    text-decoration: none;
+}
+
+#recommended-plugins-section .daext-widget-content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#help-section-list {
+    margin-left: 1em;
+    margin-top: 8px;
+}
+
+.recommended-plugins-section-item:not(:last-of-type) {
+    margin-bottom: 16px;
+}
+
+.recommended-plugins-section-item-icon {
+    float: left;
+}
+
+.recommended-plugins-section-item-description {
+    float: right;
+    width: 168px;
+    line-height: 20px;
+}
+
+@media all and (max-width: 1320px) {
+    .sidebar-container {
+        display: none
+    }
+}

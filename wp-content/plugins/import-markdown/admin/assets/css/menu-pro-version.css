@@ -1,0 +1,16 @@
+#daext-menu-wrapper li {
+    list-style: square;
+    margin-left: 16px;
+}
+
+#daext-menu-wrapper li strong {
+    text-decoration: underline;
+}
+
+#daext-menu-wrapper a.product-image-link {
+    display: inline-block;
+    margin: 0;
+    width: 540px;
+    padding: 0;
+    height: 276px;
+}
