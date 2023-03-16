@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-15 22:50:56+0000\n"
+"PO-Revision-Date: 2023-03-03 08:44:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: id\n"
 "Project-Id-Version: WordPress - 6.1.x - Development - Administration\n"
 
@@ -42,6 +42,16 @@ msgstr "0"
 #, gp-priority: high
 msgid "Continue"
 msgstr "Lanjutkan"
+
+#. translators: The localized WordPress download URL.
+#: wp-admin/about.php:648
+msgid "https://wordpress.org/download/"
+msgstr "https://id.wordpress.org/download/"
+
+#. translators: %s: The major version of WordPress for this branch.
+#: wp-admin/about.php:645
+msgid "This is the final release of WordPress %s"
+msgstr "Inilah rilis terakhir WordPress %s"
 
 #: wp-admin/includes/theme.php:335
 msgid "Site Editor"
