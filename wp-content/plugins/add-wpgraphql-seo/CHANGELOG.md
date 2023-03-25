@@ -5,6 +5,48 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.22.1] - 2023-03-08
+
+### Fixed
+
+- Taxonomies metatag behaviour fixed (#152)
+
+## [4.22.0] - 2023-02-06
+
+### Added
+
+-   `Date archive` title and description
+
+## [4.21.0] - 2023-01-06
+
+### Added
+
+-   `metaRobotsIndex` and `metaRobotsFollow` string fields (thanks @rodrigo-arias)
+
+## Fix
+
+-   Show encoded title instead of Yoast SEO variables. (thanks @rodrigo-arias)
+
+### Changed
+
+-   Change supported version of WordPress (thanks @BronsonQuick)
+
+## [4.20.0] - 2022-11-16
+
+### Added
+
+-   Added missing base meta fields:
+    -   Homepage
+    -   Author
+    -   Separator
+    -   404
+
+## [4.19.0] - 2022-10-21
+
+### Added
+
+-   Added "Other" Social Profiles after Yoast change
+
 ## [4.18.0] - 2022-06-10
 
 ### Added

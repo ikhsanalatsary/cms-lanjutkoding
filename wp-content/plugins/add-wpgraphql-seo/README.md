@@ -253,6 +253,27 @@ query GetPostsWithIsPrimary {
 ```graphql
 query GetSeoConfig {
     seo {
+        meta {
+            author {
+                description
+                title
+            }
+            date {
+                description
+                title
+            }
+            config {
+                separator
+            }
+            homepage {
+                description
+                title
+            }
+            notFound {
+                breadcrumb
+                title
+            }
+        }
         webmaster {
             googleVerify
             yandexVerify
@@ -317,6 +338,7 @@ query GetSeoConfig {
             youTube {
                 url
             }
+            otherSocials
         }
         openGraph {
             frontPage {
